@@ -95,7 +95,6 @@ The whole session at a glance — keep this in mind as we go.
 - The mindset: look it up, don't memorize
 - `--help` — usually all you need
 - `man` — the full manual
-- `apropos` — finding commands by keyword
 
 ---
 
@@ -170,7 +169,11 @@ The whole session at a glance — keep this in mind as we go.
 
 - Linux is the **operating system** that runs most of the servers, cloud VMs, supercomputers, and embedded devices on the planet.
 - Android is Linux underneath. Most websites you visit run on Linux. Your VM is Linux.
-- For our workshop: every server you'll touch later is a Linux machine. Learning Linux now buys you everything else.
+- Linux a real Open Source success story.
+  - `git` was created because maintaining the Linux source was hard.
+- Linux is free, distributions may cost money.
+- Very few people run Linux on the desktop/laptop.
+
 
 ---
 
@@ -195,7 +198,7 @@ The whole session at a glance — keep this in mind as we go.
 
 - "Linux" technically just refers to the **kernel** — the core of the OS.
 - A **distribution** ("distro") bundles the Linux kernel with a package manager, default tools, and an installer to make a full usable system.
-- Hundreds of distros exist. Most descend from a small number of ancestors: **Debian** (→ Ubuntu, Mint), **Red Hat** (→ Fedora, CentOS, Rocky), **Slackware**, **Arch**.
+- Hundreds of distros exist. Most descend from a small number of ancestors: **Debian** (→ Ubuntu, Mint), **Red Hat** (→ Fedora, CentOS, Rocky), **Slackware**, **Arch**, **SuSE**.
 - **Your VM runs Ubuntu**, which is in the Debian family. Everything you learn today works on basically every Linux distro.
 - *Image: "2023 Linux Distributions Timeline" — GioComitini via GNUclad, building on Lundqvist & Rodic's work. Wikimedia Commons, CC BY-SA 4.0.*
 
@@ -211,14 +214,15 @@ The whole session at a glance — keep this in mind as we go.
 
 ---
 
-## Why are we using the terminal at all? We have a GUI.
+## Why are we using the terminal? We have a GUI.
 
 **Talk:**
 
 - The GUI is a thin layer over the same files and programs. Everything you can do in the GUI, you can do in the terminal — and a lot more.
 - Most servers don't *have* a GUI. When you SSH into a cloud machine, all you get is a shell.
 - The terminal is how professionals actually drive these systems. It's faster, scriptable, and reproducible.
-- This is the single biggest skill jump in this workshop. After today, you can follow along everywhere else.
+- Automation...
+- It looks good in movies.
 
 ---
 
@@ -693,19 +697,6 @@ man ls
 
 ---
 
-## `apropos` — "what command does X?"
-
-**Demo:**
-
-```bash
-apropos "list directory"
-apropos compress
-```
-
-Searches the man page descriptions for keywords. Useful when you don't know the command's name.
-
----
-
 ## Pattern check
 
 **Talk:** Look at this command:
@@ -1043,7 +1034,7 @@ Find every program in `/usr/bin` whose name contains "python."
 
 **Talk:**
 
-- We're going to **introduce vocabulary**, not master it. The cybersecurity session will go deeper.
+- We're going to **introduce vocabulary**, not master it.
 - The goal: you can read `ls -l` and roughly know what's going on, and you know how to see what's running.
 
 ---
@@ -1249,7 +1240,7 @@ You'll get a permission error (or be told to use sudo). The package manager does
 - `sudo` = "**s**ubstitute **u**ser, **do**" — run a single command as another user, defaulting to root.
 - You authenticate with **your own password**, not root's password. (You usually don't even know root's password, and you don't need to.)
 - Whether you're *allowed* to use sudo is configured by a sysadmin in `/etc/sudoers`.
-- On your workshop VM, your account has been given sudo privileges. On a random server you log into, you may or may not.
+- On your workshop VM, your account has been given sudo privileges. On a random server you log into, likely not.
 
 ---
 
@@ -1680,15 +1671,6 @@ When you come back to the project later, you just re-activate — you don't need
 - Understand `PATH`, `LD_LIBRARY_PATH`, and how environment variables shape what your shell finds.
 - Create and use Python virtual environments.
 
-That's the entire foundation for every later session. Well done.
-
----
-
-## What's next in the workshop
-
-- Software engineering sessions will assume you can navigate a terminal and edit files.
-- Networking sessions will get you SSHing between machines (you already know how to use a remote shell — it's the same shell, just on another machine).
-- Cybersecurity sessions will revisit permissions, processes, and users in real depth.
 
 ---
 
@@ -1803,5 +1785,3 @@ That's the entire foundation for every later session. Well done.
 ---
 
 ## Questions?
-
-(Open the floor. If quiet: "What's one thing that confused you? Even if you think you got it — what was the muddy part?")
