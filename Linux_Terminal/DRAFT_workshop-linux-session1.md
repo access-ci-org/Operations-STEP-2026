@@ -22,6 +22,15 @@
 - We're not aiming for expertise. We're aiming for fluency at the level of someone who can follow along in the rest of the workshop.
 - Let's make this interactive.
 
+## A few questions for the room
+
+**Discuss:** before we dive in, I want to hear from you.
+
+- What is your **experience with Linux** so far?
+- Have you ever used a **terminal** or command line on any OS (Linux, macOS, Windows)?
+- What's your **major** or area of interest?
+- What do you **hope to learn** in this session?
+
 ## Logistics
 
 - You each have your own Ubuntu VM with a remote desktop.
