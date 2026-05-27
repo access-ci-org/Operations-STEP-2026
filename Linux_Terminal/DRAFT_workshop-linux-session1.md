@@ -17,9 +17,9 @@
 
 ## What we're doing this session
 
-- This session is a **foundation** for the whole workshop.
+- This session is a **foundation** for the workshop.
 - Goal by the end: you can sit down at a Linux machine and *use it*. Open a terminal, find your way around, edit a file, run a program, read help.
-- We're not aiming for expertise. We're aiming for fluency at the level of someone who can follow along in the rest of the workshop.
+- We're aiming for fluency at the level of someone who can follow along in the rest of the workshop.
 - Let's make this interactive.
 
 ## A few questions for the room
@@ -28,7 +28,6 @@
 
 - What is your **experience with Linux** so far?
 - Have you ever used a **terminal** or command line on any OS (Linux, macOS, Windows)?
-- What's your **major** or area of interest?
 - What do you **hope to learn** in this session?
 
 ## Logistics
