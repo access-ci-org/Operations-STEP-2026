@@ -1,6 +1,6 @@
 
 ## Prep for Galaxy Science Gateway Workshop
-Allow 10–20 minutes to complete these steps and be sure to finish them *before the Wednesday afternoon session on June 1*.
+Allow 10–20 minutes to complete these steps and be sure to finish them *before the Monday afternoon session on June 1*.
 
 > **If your current VM is a *tiny* or *small* flavor, stop it and launch a new instance** (minimum **`m3.quad`** or larger). The steps below assume you are already connected to a suitable VM.
 
